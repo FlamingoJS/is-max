@@ -1,0 +1,36 @@
+{
+  "name": "is-max",
+  "version": "1.0.0",
+  "description": "Determine if a value is lower than another value",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlamingoJS/is-max.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "keywords": [
+    "max"
+  ],
+  "author": {
+    "name": "Bruno Queiros",
+    "email": "brunoofq@gmail.com",
+    "url": "https://github.com/brunoqueiros"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/FlamingoJS/is-max/issues"
+  },
+  "homepage": "https://github.com/FlamingoJS/is-max#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.3.21",
+    "babel-preset-es2015": "^6.3.13",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
